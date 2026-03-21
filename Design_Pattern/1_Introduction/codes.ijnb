@@ -1,0 +1,272 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "1f5223c1",
+      "cell_type": "markdown",
+      "source": "# Duck.java   ",
+      "metadata": {
+        "language": "markdown",
+        "id": "1f5223c1"
+      }
+    },
+    {
+      "id": "70488017-a960-44b4-b68b-84225ea3f0fc",
+      "cell_type": "code",
+      "source": "// FlyBehavior.java  \npublic interface FlyBehavior {\n    void fly();\n}\n// FlyBehavior is an interface that defines a method fly()",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 1,
+          "success": true
+        }
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 1
+        }
+      ]
+    },
+    {
+      "id": "a3847026-4e94-40b0-aba9-a240f50de8e3",
+      "cell_type": "code",
+      "source": "// QuackBehavior.java\npublic interface QuackBehavior {\n    void quack();\n}\n// QuackBehavior is an interface that defines a method quack()",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 2,
+          "success": true
+        }
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "id": "c5021d29-152a-45a8-b8c3-7faf9743f51b",
+      "cell_type": "code",
+      "source": "public class FlyWithWings implements FlyBehavior {\n    public void fly() {\n        System.out.println(\"I'm flying with wings!\");\n    }\n}\n// FlyWithWings is a class that implements the FlyBehavior interface and provides an implementation for the fly() method\n// The implementation of fly() in FlyWithWings prints \"I'm flying with wings!\" to the console",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 5,
+          "success": true
+        }
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "id": "6898b876-225f-4f8b-b61b-94c58c882011",
+      "cell_type": "code",
+      "source": "// FlyNoWay.java\npublic class FlyNoWay implements FlyBehavior {   \n    public void fly() {\n        System.out.println(\"I can't fly.\");\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 3,
+          "success": true
+        }
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "id": "2bb537b2-2bc9-4d09-8d79-d16225a53015",
+      "cell_type": "code",
+      "source": "// Quack.java\npublic class Quack implements QuackBehavior {\n    public void quack() {\n        System.out.println(\"Quack!\");\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 4,
+          "success": true
+        }
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "id": "13bb7e8d-0628-4d19-8871-0b3e9f625fcc",
+      "cell_type": "code",
+      "source": "// MuteQuack.java\npublic class MuteQuack implements QuackBehavior {\n    public void quack() {\n        System.out.println(\"<< Silence >>\");\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 6,
+          "success": true
+        }
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "id": "0d7a40a4-a38e-49f0-ba11-6c06f7ee118d",
+      "cell_type": "code",
+      "source": "// Squeak.java\npublic class Squeak implements QuackBehavior {\n    public void quack() {\n        System.out.println(\"Squeak!\");\n    }\n}\n",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 7,
+          "success": true
+        }
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "id": "ff0377ff",
+      "cell_type": "code",
+      "source": "// Duck.java\n// public: accessible from anywhere\n// abstract: cannot be instantiated, must be subclassed\npublic abstract class Duck {\n\n    FlyBehavior flyBehavior;\n    QuackBehavior quackBehavior;\n\n\t// constructor: initializes the object\n    public Duck() {\n    }\n\n    public abstract void display ();\n\n    public void performFly() {\n        flyBehavior.fly();\n    }\n\n    public void performQuack() {\n        quackBehavior.quack();\n    }\n\n    public void swim() {\n        System.out.println(\"All ducks float, even decoys!\");\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "id": "ff0377ff",
+        "vscode": {
+          "languageId": "java"
+        },
+        "executionSummary": {
+          "executionOrder": 8,
+          "success": true
+        }
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "id": "41e0f2f2",
+      "cell_type": "code",
+      "source": "// MallardDuck.java\npublic class MallardDuck extends Duck {\n\n    public MallardDuck() {\n        flyBehavior = new FlyWithWings();\n        quackBehavior = new Quack();\n    }\n\n    public void display() {\n        System.out.println(\"I'm a real Mallard duck\");\n    }\n}\n// MallardDuck is a subclass of Duck that inherits the properties and behaviors of Duck",
+      "metadata": {
+        "language": "java",
+        "id": "41e0f2f2",
+        "vscode": {
+          "languageId": "java"
+        },
+        "executionSummary": {
+          "executionOrder": 9,
+          "success": true
+        }
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "id": "a7cc218a",
+      "cell_type": "code",
+      "source": "// MiniDuckSimulator.java\npublic class MiniDuckSimulator {\n    public static void main(String[] args) {\n        Duck mallard = new MallardDuck();\n        mallard.performFly();\n        mallard.performQuack();\n    }\n}\n// MiniDuckSimulator is a class that contains the main method to run the duck simulation\n// Has to be in a separate file because it contains the main method, which is the entry point of the program",
+      "metadata": {
+        "language": "java",
+        "id": "a7cc218a",
+        "executionSummary": {
+          "executionOrder": 14,
+          "success": true
+        }
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    },
+    {
+      "id": "4bfe1468",
+      "cell_type": "code",
+      "source": "Duck d = new MallardDuck();\nd.display();\nd.performFly();\nd.performQuack();",
+      "metadata": {
+        "language": "java",
+        "id": "4bfe1468",
+        "executionSummary": {
+          "executionOrder": 15,
+          "success": true
+        }
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "I'm a real Mallard duck\nI'm flying with wings!\nQuack!\n"
+          },
+          "metadata": {},
+          "execution_count": 15
+        }
+      ]
+    },
+    {
+      "id": "a2ed7087",
+      "cell_type": "markdown",
+      "source": "",
+      "metadata": {
+        "language": "markdown",
+        "id": "a2ed7087"
+      }
+    }
+  ]
+}
