@@ -8,9 +8,27 @@
   },
   "cells": [
     {
+      "id": "e1f49d30-1f3d-4b7b-9032-0a45a74c4b01",
+      "cell_type": "markdown",
+      "source": "# References",
+      "metadata": {
+        "language": "markdown",
+        "id": "e1f49d30-1f3d-4b7b-9032-0a45a74c4b01"
+      }
+    },
+    {
+      "id": "02334713-ff54-4fa1-b6c6-ca1010726643",
+      "cell_type": "markdown",
+      "source": "- Head First Design Patterns, 2nd Edition - Eric Freeman, Elisabeth Robson",
+      "metadata": {
+        "language": "markdown",
+        "id": "02334713-ff54-4fa1-b6c6-ca1010726643"
+      }
+    },
+    {
       "id": "1f5223c1",
       "cell_type": "markdown",
-      "source": "# Duck.java   ",
+      "source": "# Duck java program   ",
       "metadata": {
         "language": "markdown",
         "id": "1f5223c1"
@@ -22,20 +40,14 @@
       "source": "// FlyBehavior.java  \npublic interface FlyBehavior {\n    void fly();\n}\n// FlyBehavior is an interface that defines a method fly()",
       "metadata": {
         "language": "java",
+        "id": "70488017-a960-44b4-b68b-84225ea3f0fc",
         "executionSummary": {
           "executionOrder": 1,
           "success": true
         }
       },
       "execution_count": 1,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {},
-          "metadata": {},
-          "execution_count": 1
-        }
-      ]
+      "outputs": []
     },
     {
       "id": "a3847026-4e94-40b0-aba9-a240f50de8e3",
@@ -43,20 +55,14 @@
       "source": "// QuackBehavior.java\npublic interface QuackBehavior {\n    void quack();\n}\n// QuackBehavior is an interface that defines a method quack()",
       "metadata": {
         "language": "java",
+        "id": "a3847026-4e94-40b0-aba9-a240f50de8e3",
         "executionSummary": {
           "executionOrder": 2,
           "success": true
         }
       },
       "execution_count": 2,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {},
-          "metadata": {},
-          "execution_count": 2
-        }
-      ]
+      "outputs": []
     },
     {
       "id": "c5021d29-152a-45a8-b8c3-7faf9743f51b",
@@ -64,20 +70,14 @@
       "source": "public class FlyWithWings implements FlyBehavior {\n    public void fly() {\n        System.out.println(\"I'm flying with wings!\");\n    }\n}\n// FlyWithWings is a class that implements the FlyBehavior interface and provides an implementation for the fly() method\n// The implementation of fly() in FlyWithWings prints \"I'm flying with wings!\" to the console",
       "metadata": {
         "language": "java",
+        "id": "c5021d29-152a-45a8-b8c3-7faf9743f51b",
         "executionSummary": {
-          "executionOrder": 5,
+          "executionOrder": 3,
           "success": true
         }
       },
-      "execution_count": 5,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {},
-          "metadata": {},
-          "execution_count": 5
-        }
-      ]
+      "execution_count": 3,
+      "outputs": []
     },
     {
       "id": "6898b876-225f-4f8b-b61b-94c58c882011",
@@ -85,20 +85,14 @@
       "source": "// FlyNoWay.java\npublic class FlyNoWay implements FlyBehavior {   \n    public void fly() {\n        System.out.println(\"I can't fly.\");\n    }\n}",
       "metadata": {
         "language": "java",
+        "id": "6898b876-225f-4f8b-b61b-94c58c882011",
         "executionSummary": {
-          "executionOrder": 3,
+          "executionOrder": 4,
           "success": true
         }
       },
-      "execution_count": 3,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {},
-          "metadata": {},
-          "execution_count": 3
-        }
-      ]
+      "execution_count": 4,
+      "outputs": []
     },
     {
       "id": "2bb537b2-2bc9-4d09-8d79-d16225a53015",
@@ -106,20 +100,14 @@
       "source": "// Quack.java\npublic class Quack implements QuackBehavior {\n    public void quack() {\n        System.out.println(\"Quack!\");\n    }\n}",
       "metadata": {
         "language": "java",
+        "id": "2bb537b2-2bc9-4d09-8d79-d16225a53015",
         "executionSummary": {
-          "executionOrder": 4,
+          "executionOrder": 5,
           "success": true
         }
       },
-      "execution_count": 4,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {},
-          "metadata": {},
-          "execution_count": 4
-        }
-      ]
+      "execution_count": 5,
+      "outputs": []
     },
     {
       "id": "13bb7e8d-0628-4d19-8871-0b3e9f625fcc",
@@ -127,20 +115,14 @@
       "source": "// MuteQuack.java\npublic class MuteQuack implements QuackBehavior {\n    public void quack() {\n        System.out.println(\"<< Silence >>\");\n    }\n}",
       "metadata": {
         "language": "java",
+        "id": "13bb7e8d-0628-4d19-8871-0b3e9f625fcc",
         "executionSummary": {
           "executionOrder": 6,
           "success": true
         }
       },
       "execution_count": 6,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {},
-          "metadata": {},
-          "execution_count": 6
-        }
-      ]
+      "outputs": []
     },
     {
       "id": "0d7a40a4-a38e-49f0-ba11-6c06f7ee118d",
@@ -148,25 +130,19 @@
       "source": "// Squeak.java\npublic class Squeak implements QuackBehavior {\n    public void quack() {\n        System.out.println(\"Squeak!\");\n    }\n}\n",
       "metadata": {
         "language": "java",
+        "id": "0d7a40a4-a38e-49f0-ba11-6c06f7ee118d",
         "executionSummary": {
           "executionOrder": 7,
           "success": true
         }
       },
       "execution_count": 7,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {},
-          "metadata": {},
-          "execution_count": 7
-        }
-      ]
+      "outputs": []
     },
     {
       "id": "ff0377ff",
       "cell_type": "code",
-      "source": "// Duck.java\n// public: accessible from anywhere\n// abstract: cannot be instantiated, must be subclassed\npublic abstract class Duck {\n\n    FlyBehavior flyBehavior;\n    QuackBehavior quackBehavior;\n\n\t// constructor: initializes the object\n    public Duck() {\n    }\n\n    public abstract void display ();\n\n    public void performFly() {\n        flyBehavior.fly();\n    }\n\n    public void performQuack() {\n        quackBehavior.quack();\n    }\n\n    public void swim() {\n        System.out.println(\"All ducks float, even decoys!\");\n    }\n}",
+      "source": "// Duck.java\n// public: accessible from anywhere\n// abstract: cannot be instantiated, must be subclassed\npublic abstract class Duck {\n\n    FlyBehavior flyBehavior;\n    QuackBehavior quackBehavior;\n\n\t// constructor: initializes the object\n    public Duck() {\n    }\n\n    public abstract void display ();\n\n    public void performFly() {\n        flyBehavior.fly();\n    }\n\n    public void performQuack() {\n        quackBehavior.quack();\n    }\n\n    public void swim() {\n        System.out.println(\"All ducks float, even decoys!\");\n    }\n\n    // dynamic behavior: allows changing the behavior at runtime\n    public void setFlyBehavior(FlyBehavior fb) {\n        flyBehavior = fb;   \n    }\n\n    public void setQuackBehavior(QuackBehavior qb) {\n        quackBehavior = qb;\n    }\n}",
       "metadata": {
         "language": "java",
         "id": "ff0377ff",
@@ -179,14 +155,7 @@
         }
       },
       "execution_count": 8,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {},
-          "metadata": {},
-          "execution_count": 8
-        }
-      ]
+      "outputs": []
     },
     {
       "id": "41e0f2f2",
@@ -195,23 +164,13 @@
       "metadata": {
         "language": "java",
         "id": "41e0f2f2",
-        "vscode": {
-          "languageId": "java"
-        },
         "executionSummary": {
           "executionOrder": 9,
           "success": true
         }
       },
       "execution_count": 9,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {},
-          "metadata": {},
-          "execution_count": 9
-        }
-      ]
+      "outputs": []
     },
     {
       "id": "a7cc218a",
@@ -221,19 +180,12 @@
         "language": "java",
         "id": "a7cc218a",
         "executionSummary": {
-          "executionOrder": 14,
+          "executionOrder": 10,
           "success": true
         }
       },
-      "execution_count": 14,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {},
-          "metadata": {},
-          "execution_count": 14
-        }
-      ]
+      "execution_count": 10,
+      "outputs": []
     },
     {
       "id": "4bfe1468",
@@ -243,11 +195,11 @@
         "language": "java",
         "id": "4bfe1468",
         "executionSummary": {
-          "executionOrder": 15,
+          "executionOrder": 11,
           "success": true
         }
       },
-      "execution_count": 15,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -255,17 +207,89 @@
             "text/plain": "I'm a real Mallard duck\nI'm flying with wings!\nQuack!\n"
           },
           "metadata": {},
-          "execution_count": 15
+          "execution_count": 11
         }
       ]
     },
     {
       "id": "a2ed7087",
       "cell_type": "markdown",
-      "source": "",
+      "source": "# Add dynamic behavior to the program",
       "metadata": {
         "language": "markdown",
         "id": "a2ed7087"
+      }
+    },
+    {
+      "id": "ca4dcd50-ef0b-41e4-926c-5f139fa686b4",
+      "cell_type": "code",
+      "source": "public class ModelDuck extends Duck {\n    public ModelDuck() {\n        flyBehavior = new FlyNoWay();\n        quackBehavior = new Quack();\n    }\n\n    public void display() {\n        System.out.println(\"I'm a model duck\");\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "id": "ca4dcd50-ef0b-41e4-926c-5f139fa686b4",
+        "executionSummary": {
+          "executionOrder": 12,
+          "success": true
+        }
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "id": "7fb4e08b-05bb-4ae1-8e2f-449f8af0a740",
+      "cell_type": "code",
+      "source": "public class FlyRocketPowered implements FlyBehavior {\n    public void fly() {\n        System.out.println(\"I'm flying with a rocket!\");    \n    }\n}",
+      "metadata": {
+        "language": "java",
+        "id": "7fb4e08b-05bb-4ae1-8e2f-449f8af0a740",
+        "executionSummary": {
+          "executionOrder": 13,
+          "success": true
+        }
+      },
+      "execution_count": 13,
+      "outputs": []
+    },
+    {
+      "id": "eb0572ab-cb44-4d14-9072-d45ea6435433",
+      "cell_type": "code",
+      "source": "Duck model = new ModelDuck();\nmodel.performFly(); // the fly behavior is determined beforehand, and it won't change until we change it\nmodel.setFlyBehavior(new FlyRocketPowered()); // we can change the fly behavior at runtime by setting a new FlyBehavior\nmodel.performFly(); // the fly behavior has changed to FlyRocketPowered",
+      "metadata": {
+        "language": "java",
+        "id": "eb0572ab-cb44-4d14-9072-d45ea6435433",
+        "executionSummary": {
+          "executionOrder": 14,
+          "success": true
+        }
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "I can't fly.\nI'm flying with a rocket!\n"
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    },
+    {
+      "id": "9653bb54-1b62-43ae-9cb4-65d9430c881d",
+      "cell_type": "markdown",
+      "source": "# Arrange character classes/interfaces exercise",
+      "metadata": {
+        "language": "markdown",
+        "id": "9653bb54-1b62-43ae-9cb4-65d9430c881d"
+      }
+    },
+    {
+      "id": "95b21886-cef3-4c7b-81eb-4fe4d596e66e",
+      "cell_type": "markdown",
+      "source": "![Classes and interfaces](image.png)\nYour task:\n\n1. Arrange the classes.\n\n2. Identify one abstract class, one interface, and eight classes.\n- Abstract class: Character\n- Interface: WeaponBehavior\n- Classes: Knight, Queen, King, Troll, SwordBehavior, BowAndArrowBehavior, AxeBehavior, KnifeBehavior\n\n3. Draw arrows between classes.\n\na. Draw this kind of arrow for inheritance (“extends”). \nInheritance arrows point from the superclass to the subclass. Character superclass will have arrows pointing to Knight, Queen, King, and Troll subclasses.\n\nb. Draw this kind of arrow for interface (“implements”).\nInterface WeaponBehavior will have arrows pointing to SwordBehavior, BowAndArrowBehavior, AxeBehavior, and KnifeBehavior classes.\n\nc. Draw this kind of arrow for HAS-A.\nSuperclass Character will have a HAS-A relationship with the WeaponBehavior interface, indicating that each character has a weapon behavior.\n\n4. Put the method setWeapon() into the right class.\nsetWeapon() method should be placed in the Character class, as it allows characters to change their weapon behavior dynamically.",
+      "metadata": {
+        "language": "markdown",
+        "id": "95b21886-cef3-4c7b-81eb-4fe4d596e66e"
       }
     }
   ]
