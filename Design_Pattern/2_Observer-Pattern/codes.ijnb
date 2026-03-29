@@ -1,0 +1,286 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "a3e3baf3-fa77-4199-bf7e-dba01abcafb5",
+      "cell_type": "markdown",
+      "source": "# Observer Patterns\nThis is the implementation codes of the Observer Patterns in Java.",
+      "metadata": {
+        "language": "markdown",
+        "id": "a3e3baf3-fa77-4199-bf7e-dba01abcafb5"
+      }
+    },
+    {
+      "id": "f4315f4d-3a29-48b0-a9ea-3149785ad343",
+      "cell_type": "markdown",
+      "source": "## 1. Weather application",
+      "metadata": {
+        "language": "markdown",
+        "id": "f4315f4d-3a29-48b0-a9ea-3149785ad343"
+      }
+    },
+    {
+      "id": "cfe2ec7d-c86f-4d7d-a9b8-25539f371aa1",
+      "cell_type": "code",
+      "source": "// create Subject interface\npublic interface Subject {\n    void registerObserver(Observer o); // method to register an observer\n    void removeObserver(Observer o);   // method to remove an observer\n    void notifyObservers();            // method to notify all observers of a change\n}\n\n// create Observer interface\npublic interface Observer {\n    void update(); // base method to update observer\n}\n\n// create PushObserver and PullObserver interfaces that extend Observer\npublic interface PushObserver extends Observer {\n    void update(float temperature, float humidity, float pressure); // method to update observer with new measurements (push)\n}\n\npublic interface PullObserver extends Observer {\n    // uses the void update() method from Observer\n}\n\n// create DisplayElement interface for display elements\npublic interface DisplayElement {\n    void display(); // method to display the current conditions\n}",
+      "metadata": {
+        "language": "java",
+        "id": "cfe2ec7d-c86f-4d7d-a9b8-25539f371aa1",
+        "executionSummary": {
+          "executionOrder": 1,
+          "success": true
+        }
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 1
+        }
+      ]
+    },
+    {
+      "id": "f120286b-095f-4095-b728-f23834ab5870",
+      "cell_type": "code",
+      "source": "// create WeatherData class that implements Subject interface\npublic class WeatherData implements Subject {\n    private List<PushObserver> pushObservers; // list to hold all observers\n    private List<PullObserver> pullObservers; // list to hold all observers\n    private float temperature;\n    private float humidity;\n    private float pressure;\n\n    // constructor to initialize the observers list\n    public WeatherData() {\n        pushObservers = new ArrayList<PushObserver>();\n        pullObservers = new ArrayList<PullObserver>();\n    }\n\n    // register an observer to the list\n    @Override\n    public void registerObserver(Observer o) {\n        if (o instanceof PushObserver) {\n            pushObservers.add((PushObserver) o);\n        } else if (o instanceof PullObserver) {\n            pullObservers.add((PullObserver) o);\n        }\n    }\n\n    // remove an observer from the list\n    @Override\n    public void removeObserver(Observer o) {\n        pushObservers.remove(o);\n        pullObservers.remove(o);\n    }\n\n    // notify all observers of the current state\n    @Override\n    public void notifyObservers() {\n        for (PushObserver observer : pushObservers) {\n            observer.update(temperature, humidity, pressure);\n        }\n        for (PullObserver observer : pullObservers) {\n            observer.update();\n        }\n    }\n\n    // when measurements change, notify all observers\n    public void measurementsChanged() {\n        notifyObservers();\n    }\n\n    // set new measurements and trigger the change notification\n    public void setMeasurements(float temperature, float humidity, float pressure) {\n        this.temperature = temperature;\n        this.humidity = humidity;\n        this.pressure = pressure;\n        measurementsChanged();\n    }\n\n    // getter methods for the measurements\n    public float getTemperature() {\n        return temperature;\n    }\n\n    public float getHumidity() {\n        return humidity;\n    }\n\n    public float getPressure() {\n        return pressure;\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "id": "f120286b-095f-4095-b728-f23834ab5870",
+        "executionSummary": {
+          "executionOrder": 3,
+          "success": true
+        }
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "id": "daed9596-2e22-4a33-9048-aeba5cf47240",
+      "cell_type": "code",
+      "source": "// build display elements\npublic class CurrentConditionDisplay implements PushObserver, DisplayElement {\n    private float temperature;\n    private float humidity;\n    private Subject weatherData;\n\n    // constructor to register itself as an observer\n    public CurrentConditionDisplay(Subject weatherData) {\n        this.weatherData = weatherData;\n        weatherData.registerObserver(this);\n    }\n\n    // update method to receive new measurements and display them\n    @Override\n    public void update(float temperature, float humidity, float pressure) {\n        this.temperature = temperature;\n        this.humidity = humidity;\n        display();\n    }\n\n    @Override\n    public void update() {\n        // Base update method from Observer interface\n        display();\n    }\n\n    // display the current conditions\n    @Override\n    public void display() {\n        System.out.println(\"Current conditions: \" + temperature + \"F degrees and \" + humidity + \"% humidity\");\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "id": "daed9596-2e22-4a33-9048-aeba5cf47240",
+        "executionSummary": {
+          "executionOrder": 4,
+          "success": true
+        }
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "id": "0bc30980-6e60-4827-b8da-7f098afaca17",
+      "cell_type": "markdown",
+      "source": "## Challenge",
+      "metadata": {
+        "language": "markdown",
+        "id": "0bc30980-6e60-4827-b8da-7f098afaca17"
+      }
+    },
+    {
+      "id": "fa4b936b-86b5-44ff-9ddb-b74dcf368ea5",
+      "cell_type": "code",
+      "source": "public class ForecastDisplay implements PullObserver, DisplayElement {\n    private float currentPressure = 29.92f;\n    private float lastPressure;\n    private WeatherData weatherData;\n\n    public ForecastDisplay(Subject weatherData) {\n        this.weatherData = (WeatherData) weatherData;\n        weatherData.registerObserver(this);\n    }\n\n    @Override\n    public void update() {\n        lastPressure = currentPressure;\n        currentPressure = weatherData.getPressure();\n        display();\n    }\n\n    @Override\n    public void display() {\n        System.out.print(\"Forecast : \");\n        if (currentPressure > lastPressure) {\n            System.out.println(\"Improving weather on the way!\");\n        } else if (currentPressure < lastPressure) {\n            System.out.println(\"Watch out for cooler, rainy weather\");\n        } else {\n            System.out.println(\"More of the same\");\n        }\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 5,
+          "success": true
+        }
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "id": "5ac12041-f51d-45d2-bf2f-98b425bad33e",
+      "cell_type": "code",
+      "source": "\n\npublic class AvgMinMaxDisplay implements PullObserver, DisplayElement {\n        private WeatherData weatherData;\n        private List<Float> temperatureReadings;\n\n        public AvgMinMaxDisplay(Subject weatherData) {\n                this.weatherData = (WeatherData) weatherData;\n                this.temperatureReadings = new ArrayList<>();\n                weatherData.registerObserver(this);\n        }\n\n        public void update() {\n                temperatureReadings.add(weatherData.getTemperature());\n                display();\n        }\n\n        public void display() {\n                float maxTemp = Collections.max(temperatureReadings);\n                float minTemp = Collections.min(temperatureReadings);\n                float avgTemp = (float) temperatureReadings.stream().mapToDouble(Float::doubleValue).average().orElse(0.0f);\n                System.out.println(\"Avg/Max/Min temperature = \" + avgTemp + \"/\" + maxTemp + \"/\" + minTemp);\n        }\n}",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 9,
+          "success": true
+        }
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "id": "c5b79dc3-3bfe-407d-90aa-d85c573584c3",
+      "cell_type": "code",
+      "source": "// build the weather station to test the implementation\npublic class WeatherStation {\n\n    public static void main (String[] args) {\n        WeatherData weatherData = new WeatherData(); // create WeatherData object\n\n        CurrentConditionDisplay currentDisplay = new CurrentConditionDisplay(weatherData); // create display element and register it\n        AvgMinMaxDisplay avgMinMaxDisplay = new AvgMinMaxDisplay(weatherData); // create another display element and register it\n        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData); // create another display element and register it\n\n\n        weatherData.setMeasurements(80, 65, 30.4f); \n        weatherData.setMeasurements(82, 70, 29.2f); \n        weatherData.setMeasurements(78, 90, 29.2f);\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 10,
+          "success": true
+        }
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "id": "f6547e35-c52d-47c5-bec1-73f51ff4f8c9",
+      "cell_type": "code",
+      "source": "// run the code\nWeatherStation.main(null);",
+      "metadata": {
+        "language": "java",
+        "id": "f6547e35-c52d-47c5-bec1-73f51ff4f8c9",
+        "executionSummary": {
+          "executionOrder": 11,
+          "success": true
+        }
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "Current conditions: 80.0F degrees and 65.0% humidity\nAvg/Max/Min temperature = 80.0/80.0/80.0\nForecast : Improving weather on the way!\nCurrent conditions: 82.0F degrees and 70.0% humidity\nAvg/Max/Min temperature = 81.0/82.0/80.0\nForecast : Watch out for cooler, rainy weather\nCurrent conditions: 78.0F degrees and 90.0% humidity\nAvg/Max/Min temperature = 80.0/82.0/78.0\nForecast : More of the same\n"
+          },
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "id": "30b0d008-c8a6-4b1d-8f3f-4bd816eb0a90",
+      "cell_type": "markdown",
+      "source": "## Swing program",
+      "metadata": {
+        "language": "markdown",
+        "id": "30b0d008-c8a6-4b1d-8f3f-4bd816eb0a90"
+      }
+    },
+    {
+      "id": "cd93f1d0-6de6-4306-8734-4dbdce3a1254",
+      "cell_type": "code",
+      "source": "import javax.swing.*;\nimport java.awt.event.ActionEvent;\nimport java.awt.event.ActionListener;\n\npublic class SwingObserverExample {\n    JFrame frame;\n\n    public static void main(String[] args) {\n        SwingObserverExample example = new SwingObserverExample();\n        example.go();\n    }\n\n    public void go() {\n        frame = new JFrame(\"Observer Swing Example\");\n\n        JButton decisionButton = new JButton(\"Should I do it?\");\n        decisionButton.addActionListener(new AngelListener());\n        decisionButton.addActionListener(new DevilListener());\n\n        JButton exitButton = new JButton(\"Exit\");\n        exitButton.addActionListener(e -> System.exit(0));\n\n        JPanel panel = new JPanel();\n        panel.add(decisionButton);\n        panel.add(exitButton);\n\n        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\n        frame.getContentPane().add(panel);\n        frame.setSize(320, 200);\n        frame.setVisible(true);\n    }\n\n    class AngelListener implements ActionListener {\n        @Override\n        public void actionPerformed(ActionEvent e) {\n            System.out.println(\"Don't do it, you might regret it!\");\n        }\n    }\n\n    class DevilListener implements ActionListener {\n        @Override\n        public void actionPerformed(ActionEvent e) {\n            System.out.println(\"Do it! Don't listen to the angel!\");\n        }\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "id": "cd93f1d0-6de6-4306-8734-4dbdce3a1254",
+        "executionSummary": {
+          "executionOrder": 8,
+          "success": true
+        }
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "id": "d9d3f550-f556-489b-abe1-a195f03a5b52",
+      "cell_type": "code",
+      "source": "//SwingObserverExample.main(null);",
+      "metadata": {
+        "language": "java",
+        "id": "d9d3f550-f556-489b-abe1-a195f03a5b52",
+        "executionSummary": {
+          "executionOrder": 9,
+          "success": true
+        }
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "id": "4e90eff1-ae63-4b86-9786-dc294253113d",
+      "cell_type": "code",
+      "source": "// using lambda expressions to simplify the code\nimport javax.swing.*;\nimport java.awt.event.ActionEvent;\nimport java.awt.event.ActionListener;\n\npublic class LambdaSwingObserverExample {\n    JFrame frame;\n\n    public static void main(String[] args) {\n        LambdaSwingObserverExample example = new LambdaSwingObserverExample();\n        example.go();\n    }\n\n    public void go() {\n        frame = new JFrame(\"Observer Swing Example\");\n\n        JButton decisionButton = new JButton(\"Should I do it?\");\n        decisionButton.addActionListener(e -> System.out.println(\"Don't do it, you might regret it!\"));\n        decisionButton.addActionListener(e -> System.out.println(\"Do it! Don't listen to the angel!\"));\n\n        JButton exitButton = new JButton(\"Exit\");\n        exitButton.addActionListener(e -> System.exit(0));\n\n        JPanel panel = new JPanel();\n        panel.add(decisionButton);\n        panel.add(exitButton);\n\n        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\n        frame.getContentPane().add(panel);\n        frame.setSize(320, 200);\n        frame.setVisible(true);\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 10,
+          "success": true
+        }
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "id": "eb616664-4206-491a-ac37-44e03ac279a9",
+      "cell_type": "code",
+      "source": "//LambdaSwingObserverExample.main(null);",
+      "metadata": {
+        "language": "java",
+        "executionSummary": {
+          "executionOrder": 11,
+          "success": true
+        }
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    }
+  ]
+}
