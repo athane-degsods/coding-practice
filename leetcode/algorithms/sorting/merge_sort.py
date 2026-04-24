@@ -47,7 +47,7 @@ Space Complexity: O(n)
 class Solution(object):
     def sortArray(self, nums):
         """
-        Sorts an array using selection sort.
+        Sorts an array using merge sort.
         :type nums: List[int]
         :rtype: List[int]
         """
