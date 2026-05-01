@@ -1,0 +1,1199 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9" pages="3">
+  <diagram name="Page-1" id="yZ-E66C3ibEz6Z_WkWl_">
+    <mxGraphModel dx="1159" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jF2w0xSt0sonpiegm3nf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-8" target="jF2w0xSt0sonpiegm3nf-9" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-8" value="Artificial Inteligence" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-9" value="Robot simulates human inteligence" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-23" target="jF2w0xSt0sonpiegm3nf-24" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-23" value="Baseline" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-24" value="Lowest level of security allowed" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-29" target="jF2w0xSt0sonpiegm3nf-30" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-29" value="Bot" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-30" value="Malicious code scripted to do specific actions" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-35" target="jF2w0xSt0sonpiegm3nf-36" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-35" value="Classified/Sensitive information" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-36" value="Information that is classified and protected from unauthorized access" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-41" target="jF2w0xSt0sonpiegm3nf-42" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-41" value="Criticality" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-42" value="Things too important that it decides success/failure of organization" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-44" target="jF2w0xSt0sonpiegm3nf-45" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-44" value="Data Integrity" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-45" value="Data has not been altered in an unauthorized manner" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="jF2w0xSt0sonpiegm3nf-53" target="jF2w0xSt0sonpiegm3nf-54" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-53" value="Governance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-54" value="The process of how an organization is managed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-62" target="jF2w0xSt0sonpiegm3nf-63" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-62" value="Information Security Risk" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-63" value="The probability of someone use information violating people" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="jF2w0xSt0sonpiegm3nf-68" target="jF2w0xSt0sonpiegm3nf-69" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-68" value="International Organization of Standards (ISO)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3840" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-69" value="Working with other organizations to create standards in information and communication technologies" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4045" y="2530" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="jF2w0xSt0sonpiegm3nf-71" target="jF2w0xSt0sonpiegm3nf-72" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-71" value="Internet Engineering Task Force (IETF)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3840" y="2620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-72" value="Making standard in network communication (protocols...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4045" y="2620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-77" target="jF2w0xSt0sonpiegm3nf-78" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-77" value="Likelihood of Occurrence" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-78" value="A weighted factor saying the probability of a vulnerability being exploited among vulnerabilites" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="700" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-86" target="jF2w0xSt0sonpiegm3nf-87" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-86" value="Non-repudiation" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-87" value="The inability to deny taking an action" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-98" target="jF2w0xSt0sonpiegm3nf-99" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-98" value="Probability" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-99" value="The chances that a threat is capable of exploiting" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-104" target="jF2w0xSt0sonpiegm3nf-105" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-104" value="Qualitative Risk Analysis" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-105" value="A method for risk analysis based on the assignment of a descriptor" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-107" target="jF2w0xSt0sonpiegm3nf-108" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-107" value="Quantitative Risk Analysis" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-108" value="A method for risk analysis based on impact (loss valuation) and likelihood (probability)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="jF2w0xSt0sonpiegm3nf-113" target="jF2w0xSt0sonpiegm3nf-114" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-113" value="Risk Acceptance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5310" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-114" value="Determining that the potential benifits of a bussiness function outweigh the possible risk impact =&amp;gt; can let it happens" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5515" y="1670" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="jF2w0xSt0sonpiegm3nf-119" target="jF2w0xSt0sonpiegm3nf-120" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-119" value="Risk Avoidance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5310" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-120" value="Determining that the risk impact/likelihood is outweigh potential benefits a bussiness funcion =&amp;gt; avoid it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5515" y="1840" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-125" target="jF2w0xSt0sonpiegm3nf-126" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-125" value="Risk Management Framework" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-126" value="A tructured approach used to oversee and manage risk" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="jF2w0xSt0sonpiegm3nf-128" target="jF2w0xSt0sonpiegm3nf-129" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-128" value="Risk Mitigation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5330" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-129" value="Putting security controls in place to reduce impact of a risk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5535" y="1410" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-131" target="jF2w0xSt0sonpiegm3nf-132" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-131" value="Risk Tolerance" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-132" value="The level of risk an entity is willing to assume to achieve a potential desire result" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="jF2w0xSt0sonpiegm3nf-134" target="jF2w0xSt0sonpiegm3nf-135" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-134" value="Risk Transference" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5325" y="1525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-135" value="Paying another party to accept the financial impact of a risk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5530" y="1525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-137" target="jF2w0xSt0sonpiegm3nf-138" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-137" value="Risk Treatment" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-138" value="The best way to address an identified risk" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="700" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-143" target="jF2w0xSt0sonpiegm3nf-144" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-143" value="Sensitivity" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-144" value="How important is to information described by its owner" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="700" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-149" target="jF2w0xSt0sonpiegm3nf-150" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-149" value="State" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-150" value="The condition an entity is in at a point in time" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="810" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-152" target="jF2w0xSt0sonpiegm3nf-153" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-152" value="System Integrity" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-153" value="The quality of a system when it performs its functions" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="595" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-166" target="jF2w0xSt0sonpiegm3nf-167" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-166" value="Threat Vector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-167" value="The way a threat actor carries out their objectives" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-172" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;" edge="1" source="jF2w0xSt0sonpiegm3nf-173" target="jF2w0xSt0sonpiegm3nf-174" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-173" value="Institure of Electrical and Electronics Engineers" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-174" value="IEEE is an organization that sets standards for telecommunications, computer engineering..." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;flipV=0;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-175" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;THE OVERARCHING GOAL: SECURITY GOVERNANCE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1250" width="880" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-179" target="jF2w0xSt0sonpiegm3nf-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-179" value="Adequate Security" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-180" value="Calculate risk probability &amp;amp; its harm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-181" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-182" target="jF2w0xSt0sonpiegm3nf-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-182" value="Security Controls" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-183" value="The technical controls to assure CIA property of information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="1450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-184" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-185" target="jF2w0xSt0sonpiegm3nf-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-185" value="Administrative Control" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-186" value="Gain people&#39;s privileges based on policy and procedures" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-188" target="jF2w0xSt0sonpiegm3nf-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-188" value="Technical Controls" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-189" value="Security controls fo an information system working on technical components" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-191" target="jF2w0xSt0sonpiegm3nf-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-191" value="Physical Controls" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-192" value="Controls implemented through a tangible mechanism" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-193" value="THE CORE PRINCIPELS: THE CIA TRIAD" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="1240" width="1140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-194" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-195" target="jF2w0xSt0sonpiegm3nf-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-195" value="Confidentiality" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-196" value="Data can only be retrieved by the person with the right authorization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2345" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-197" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-198" target="jF2w0xSt0sonpiegm3nf-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-198" value="Encryption" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-199" value="Converting plaintext to ciphertext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-201" target="jF2w0xSt0sonpiegm3nf-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-201" value="Integrity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="1445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-202" value="Information is protected no matter what happened to it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="1445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-204" value="Hashing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="1575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-206" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-207" target="jF2w0xSt0sonpiegm3nf-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-207" value="Availability" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="1445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-208" value="Ensure information is always available to be used" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3075" y="1445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-209" value="Redundancy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-210" value="THE CORE PROCESS: RISK MANAGEMENT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="3620" y="1240" width="2210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-212" target="jF2w0xSt0sonpiegm3nf-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-212" value="Risk Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3650" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-213" value="The process of identifying, evaluating and controlling threats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3855" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-215" target="jF2w0xSt0sonpiegm3nf-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-215" value="Asset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4170" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-216" value="Value thing owned by organization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4375" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-217" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-218" target="jF2w0xSt0sonpiegm3nf-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-218" value="Vulnerability" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4170" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-219" value="Weakness in an information system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4370" y="1480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-220" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-222" target="jF2w0xSt0sonpiegm3nf-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-221" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-224" target="jF2w0xSt0sonpiegm3nf-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-222" value="Threat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-223" value="Circumstances or events that could cause harm to the system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4385" y="1570" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-224" value="Threat Actor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-225" value="A group of people exploiting vulnerabilities on people systems and forcing threat on those" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4385" y="1660" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-226" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-227" target="jF2w0xSt0sonpiegm3nf-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-227" value="Risk Assessment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4820" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-228" value="The process of identifying and analyzing risks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5025" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-229" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-230" target="jF2w0xSt0sonpiegm3nf-231">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-230" value="Likelihood" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4820" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-231" value="A potential vulnerability that may be exercised" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5025" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-232" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-233" target="jF2w0xSt0sonpiegm3nf-234">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-233" value="Risk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4820" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-234" value="A mesure of extent to which an entity is threatened by a potential circumstances" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5020" y="1590" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-235" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-236" target="jF2w0xSt0sonpiegm3nf-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-236" value="Impact" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4820" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-237" value="Harm caused by an threat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5025" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-238" value="THE CORE FRAMEWORK OF: ACCESS CONTROL (THE &#39;AAA&#39; FRAMEWORK)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1960" width="2210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-239" value="Identification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="2110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-241" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-242" target="jF2w0xSt0sonpiegm3nf-243">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-242" value="Authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="2120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-243" value="Check if a person have the permission do do specific things" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="2120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-244" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-245" target="jF2w0xSt0sonpiegm3nf-246">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-245" value="Token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1595" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-246" value="A physical object that can authenticate a user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="2350" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-247" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-248" target="jF2w0xSt0sonpiegm3nf-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-248" value="Biometric" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1595" y="2460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-249" value="Biological characteristic of an individual" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="2460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-250" value="Pssword" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="2240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-251" value="Factor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-252" value="Method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="2715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-253" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-254" target="jF2w0xSt0sonpiegm3nf-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-254" value="Multi-Factor Authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="2785" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-255" value="Using 2 or more distinct instances of authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="2785" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-257" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-258" target="jF2w0xSt0sonpiegm3nf-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-258" value="Single-Factor Authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="2655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-259" value="Use jsut 1 factors to carry authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1795" y="2655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-260" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jF2w0xSt0sonpiegm3nf-261" target="jF2w0xSt0sonpiegm3nf-262">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-261" value="Authorization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="2120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-262" value="The right/permissions that is granted to an entity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="2120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jF2w0xSt0sonpiegm3nf-263" value="Accountability" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="2130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-1" value="GUIDING RULES: COMPLIANCE &amp;amp; PRIVACY" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="3500" y="1970" width="1140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W9ghBFyXtTAPvGNIMndd-3" target="W9ghBFyXtTAPvGNIMndd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-3" value="General Data Protection Regulation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3870" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-4" value="2016, EU passed lagislation about personal privacy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4070" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W9ghBFyXtTAPvGNIMndd-6" target="W9ghBFyXtTAPvGNIMndd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-6" value="Health Insurance Portability and Accountability Act" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3870" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-7" value="US federal law saying healthcare data of an individual is kept secret" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4075" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-8" value="Regulations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3590" y="2190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-9" value="Standards &amp;amp; Frameworks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3590" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-10" value="National Institutes of Standards and Technology (NIST)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3860" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-11" value="Part of the US Department of Commerce. Setting standards for number of areas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4065" y="2420" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W9ghBFyXtTAPvGNIMndd-13" target="W9ghBFyXtTAPvGNIMndd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-13" value="Privacy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3603" y="2766" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-14" value="The right of an individual to control the information about themselves" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3803" y="2766" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W9ghBFyXtTAPvGNIMndd-16" target="W9ghBFyXtTAPvGNIMndd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-16" value="Personally Identifiable Information (PII)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3973.75" y="2766" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-17" value="NIST defined PII as any data of a person that can be traced/distinguished" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4178.75" y="2766" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W9ghBFyXtTAPvGNIMndd-19" target="W9ghBFyXtTAPvGNIMndd-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-19" value="Protected Health Information (PHI)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3971.25" y="2861" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9ghBFyXtTAPvGNIMndd-20" value="Information of health status, healthcare provision and payment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4176.25" y="2861" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rOqKq3ei7YhiAQj7e4jK" name="Domain 2">
+    <mxGraphModel dx="2317" dy="3327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yrSoGidE0HzTsrQxxSue-81" value="security effect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-1" target="yrSoGidE0HzTsrQxxSue-10">
+          <mxGeometry x="0.6176" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Adverse Events" tooltip="An event with a negative consequence" id="yrSoGidE0HzTsrQxxSue-1">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="33" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Breach" tooltip="the most severe incident, where confidential data is confirmed to have been exposed or stolen" id="yrSoGidE0HzTsrQxxSue-2">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;fillColor=#fa6800;fontColor=default;strokeColor=#C73500;" vertex="1" parent="1">
+            <mxGeometry x="960" y="280" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-94" value="from process to plan document" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-3" target="yrSoGidE0HzTsrQxxSue-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Business Continuity (BC)" tooltip="The overarching strategy to keep critical business functions operating during a major disruption. It&#39;s about the whole business." id="yrSoGidE0HzTsrQxxSue-3">
+          <mxCell style="whiteSpace=wrap;html=1;flipV=0;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="1470" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Business Continuity Plan (BCP)" tooltip="The documented plan that details how the organization will maintain its core business operations.&#xa;" id="yrSoGidE0HzTsrQxxSue-4">
+          <mxCell style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="1547" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-91" value="maximum amount of time system being down" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;strokeWidth=1;endSize=3;startSize=3;opacity=80;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-5" target="yrSoGidE0HzTsrQxxSue-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Busniess Impact Analysis (BIA)" tooltip="The critical first step. A formal process to determine the potential effects of an interruption to critical business operations.&#xa;" id="yrSoGidE0HzTsrQxxSue-5">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="1185" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-96" value="from process to plan document" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-6" target="yrSoGidE0HzTsrQxxSue-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Disaster Recovery (DR)" tooltip="A subset of Business Continuity. It focuses specifically on restoring the IT systems, applications, and data needed to support the business. It&#39;s about the technology." id="yrSoGidE0HzTsrQxxSue-6">
+          <mxCell style="whiteSpace=wrap;html=1;flipV=0;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="1623" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-7" value="Disaster Recovery Plan (DRP)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-80" value="negative effect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-8" target="yrSoGidE0HzTsrQxxSue-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Event" tooltip="Any observable occurrence in a system or network" id="yrSoGidE0HzTsrQxxSue-8">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="-50" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-84" value="code attack on vulnerability" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-9" target="yrSoGidE0HzTsrQxxSue-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Exploit" tooltip="A piece of code or technique that takes advantage of a vulnerability" id="yrSoGidE0HzTsrQxxSue-9">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;fillColor=#fa6800;fontColor=default;strokeColor=#C73500;" vertex="1" parent="1">
+            <mxGeometry x="960" y="478" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-82" value="system got unathorized accessed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-10" target="yrSoGidE0HzTsrQxxSue-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Incident" tooltip="An adverse event that violates security policies&#xa;&#xa;" id="yrSoGidE0HzTsrQxxSue-10">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;fillColor=#fa6800;fontColor=default;strokeColor=#C73500;" vertex="1" parent="1">
+            <mxGeometry x="960" y="115" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-86" value="from process to planing document" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-11" target="yrSoGidE0HzTsrQxxSue-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Incident Handling or Incident Response (IR)" tooltip="The overall process and capability for managing security incidents." id="yrSoGidE0HzTsrQxxSue-11">
+          <mxCell style="whiteSpace=wrap;html=1;flipH=0;flipV=1;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="670" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Incident Response Plan (IRP)" tooltip=" The formal, documented plan that outlines the steps and procedures for IR." id="yrSoGidE0HzTsrQxxSue-12">
+          <mxCell style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="770" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-83" value="DATA IS CONFIRMED EXPOSED" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-13" target="yrSoGidE0HzTsrQxxSue-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Intrusion" tooltip="A successful, unauthorized access to a system" id="yrSoGidE0HzTsrQxxSue-13">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="200" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Security Operations Center" tooltip="The team of people who execute the IR process, often using the IRP as their guide." id="yrSoGidE0HzTsrQxxSue-15">
+          <mxCell style="whiteSpace=wrap;html=1;flipH=0;flipV=1;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="970" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Vulnerability" tooltip="A weakness in a system.&#xa;" id="yrSoGidE0HzTsrQxxSue-16">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="393" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-85" value="a type of vulnerability" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-17" target="yrSoGidE0HzTsrQxxSue-16">
+          <mxGeometry x="0.0593" y="-20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="593" />
+              <mxPoint x="1130" y="423" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Zero Day" tooltip=" A vulnerability or exploit that is unknown to the vendor and defenders." id="yrSoGidE0HzTsrQxxSue-17">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="563" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-18" target="yrSoGidE0HzTsrQxxSue-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-18" target="yrSoGidE0HzTsrQxxSue-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-18" target="yrSoGidE0HzTsrQxxSue-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-78" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;can trigger&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;strokeWidth=4;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-18" target="yrSoGidE0HzTsrQxxSue-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-18" value="&lt;font&gt;INCIDENT RESPONSE (IR) - HANDLING THE IMMEDIATE THREAT&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="520" y="365" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-19" target="yrSoGidE0HzTsrQxxSue-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-19" target="yrSoGidE0HzTsrQxxSue-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-19" value="BUSINESS RESILIENCE - SURVIVING THE DISRUPTION" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1313" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-20" target="yrSoGidE0HzTsrQxxSue-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-20" target="yrSoGidE0HzTsrQxxSue-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-20" target="yrSoGidE0HzTsrQxxSue-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-20" target="yrSoGidE0HzTsrQxxSue-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-20" target="yrSoGidE0HzTsrQxxSue-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="The Anatomy of an &#39;Event&#39;" tooltip="This shows the progression from a minor occurrence to a major breach" id="yrSoGidE0HzTsrQxxSue-20">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="760" y="115" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-21" target="yrSoGidE0HzTsrQxxSue-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-21" target="yrSoGidE0HzTsrQxxSue-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-21" target="yrSoGidE0HzTsrQxxSue-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-21" value="The Cause of &#39;Incident&#39;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-26" target="yrSoGidE0HzTsrQxxSue-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-26" target="yrSoGidE0HzTsrQxxSue-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-26" target="yrSoGidE0HzTsrQxxSue-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-26" target="yrSoGidE0HzTsrQxxSue-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-26" value="The Response Framework" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="823" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-27" target="yrSoGidE0HzTsrQxxSue-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-28" target="yrSoGidE0HzTsrQxxSue-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-29" target="yrSoGidE0HzTsrQxxSue-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-30" target="yrSoGidE0HzTsrQxxSue-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-27" value="The 6 Phases of Incident Response" style="whiteSpace=wrap;html=1;flipH=0;flipV=1;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-32" value="Post-incident activity" style="whiteSpace=wrap;html=1;flipV=1;flipH=0;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-33" target="yrSoGidE0HzTsrQxxSue-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-33" target="yrSoGidE0HzTsrQxxSue-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-33" target="yrSoGidE0HzTsrQxxSue-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-33" value="The Foundation Analysis" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-34" target="yrSoGidE0HzTsrQxxSue-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-34" target="yrSoGidE0HzTsrQxxSue-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-34" target="yrSoGidE0HzTsrQxxSue-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-34" target="yrSoGidE0HzTsrQxxSue-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-34" value="The Strategic Plan" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-92" value="maximum amount of data loss (measured in time)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;strokeWidth=1;endSize=3;startSize=3;opacity=80;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-35" target="yrSoGidE0HzTsrQxxSue-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Recovery Time Object (RTO)" tooltip="Identified during the BIA. The maximum amount of time a system can be down after a disaster.&#xa;" id="yrSoGidE0HzTsrQxxSue-35">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="1270" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-93" value="keep critical bussiness working" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;strokeWidth=1;endSize=3;startSize=3;opacity=80;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-36" target="yrSoGidE0HzTsrQxxSue-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Recovery Point Object (RPO)" tooltip="Identified during the BIA. The maximum amount of data loss that is acceptable, measured in time (e.g., &quot;we can afford to lose up to 1 hour of data&quot;).&#xa;" id="yrSoGidE0HzTsrQxxSue-36">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="960" y="1355" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-71" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-72" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="900" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-27" target="yrSoGidE0HzTsrQxxSue-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="900" as="sourcePoint" />
+            <mxPoint x="1410" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-28" target="yrSoGidE0HzTsrQxxSue-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="900" as="sourcePoint" />
+            <mxPoint x="1560" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-27" target="yrSoGidE0HzTsrQxxSue-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="900" as="sourcePoint" />
+            <mxPoint x="1340" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-27" target="yrSoGidE0HzTsrQxxSue-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="900" as="sourcePoint" />
+            <mxPoint x="1640" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="900" />
+              <mxPoint x="1260" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-29" value="Detection &amp;amp; Analysis" style="whiteSpace=wrap;html=1;flipV=1;flipH=0;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-29" target="yrSoGidE0HzTsrQxxSue-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="900" as="sourcePoint" />
+            <mxPoint x="1640" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-30" value="Containment, Eradication &amp;amp; Recovery" style="whiteSpace=wrap;html=1;flipV=1;flipH=0;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-28" value="Preparation" style="whiteSpace=wrap;html=1;flipV=1;flipH=0;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-90" value="determine first impact to business" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;strokeWidth=1;endSize=3;startSize=3;opacity=80;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-87" target="yrSoGidE0HzTsrQxxSue-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-87" value="Disaster occured" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1050" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yrSoGidE0HzTsrQxxSue-95" value="subnet&lt;div&gt;focus on keeping technical system working&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.992;entryY=0.599;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;strokeWidth=1;endSize=3;startSize=3;opacity=80;" edge="1" parent="1" source="yrSoGidE0HzTsrQxxSue-3" target="yrSoGidE0HzTsrQxxSue-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="1500" />
+              <mxPoint x="1190" y="1659" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UBYBEM1apyDLpCNoFNlF" name="Domain 3">
+    <mxGraphModel dx="651" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-46" value="read logs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-1" target="vW4bBwZLWko7UQOYLr3R-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Audit" tooltip="A formal, systematic review of logs and controls to ensure compliance and detect issues." id="vW4bBwZLWko7UQOYLr3R-1">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="540" y="3170" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Crime Prevention through Environmental Design (CPTED)" tooltip="The philosophy of using architectural design (e.g., good lighting, visibility) to deter crime." id="vW4bBwZLWko7UQOYLr3R-2">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="669" y="2765" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-10" target="AaK_XwqDNb4l9D0jVHPB-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Discretionary Access Control (DAC)" tooltip="The owner of an object determines who can access it. It is flexible but less centralized." id="vW4bBwZLWko7UQOYLr3R-10">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="569" y="1833" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Encrypt" tooltip="A technology that protects the confidentiality of an object&#39;s content." id="vW4bBwZLWko7UQOYLr3R-11">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="679" y="2310" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Firewalls" tooltip="Enforce access control rules on network traffic.&#xa;" id="vW4bBwZLWko7UQOYLr3R-12">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="679" y="2220" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Insider Threat" tooltip="A security threat that comes from a trusted individual within the organization (e.g., an employee)." id="vW4bBwZLWko7UQOYLr3R-13">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="540" y="3560" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Log Anomaly" tooltip="A suspicious or unusual entry in a log file that deviates from the normal baseline." id="vW4bBwZLWko7UQOYLr3R-15">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="540" y="3420" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="iOS" tooltip="This shows the progression from a minor occurrence to a major breach" id="vW4bBwZLWko7UQOYLr3R-16">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="869" y="2330" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Linux" tooltip="This shows the progression from a minor occurrence to a major breach" id="vW4bBwZLWko7UQOYLr3R-17">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="869" y="2410" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-47" value="suspisious logs found" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-18" target="vW4bBwZLWko7UQOYLr3R-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Logging" tooltip="The process of creating records (logs) of events that occur on a system." id="vW4bBwZLWko7UQOYLr3R-18">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="540" y="3295" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-31" target="vW4bBwZLWko7UQOYLr3R-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-31" target="vW4bBwZLWko7UQOYLr3R-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-31" target="vW4bBwZLWko7UQOYLr3R-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Logical Access Control Systems" tooltip="The overarching term for systems that manage access based on rules and policies in software." id="vW4bBwZLWko7UQOYLr3R-31">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+            <mxGeometry x="479" y="1750" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Mantrap" tooltip=" A small room with two doors that cannot be open simultaneously, used to control entry." id="vW4bBwZLWko7UQOYLr3R-32">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="669" y="2575" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-33" target="AaK_XwqDNb4l9D0jVHPB-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Mandatory Access Control (MAC)" tooltip="The system (based on administrator-set labels) determines who can access an object. It is very rigid and common in military/government environments." id="vW4bBwZLWko7UQOYLr3R-33">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="569" y="1917" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;startFill=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-34" target="AaK_XwqDNb4l9D0jVHPB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-34" target="vW4bBwZLWko7UQOYLr3R-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Object" tooltip="The passive entity that is being accessed (e.g., a file, a printer, a database).&#xa;" id="vW4bBwZLWko7UQOYLr3R-34">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="500" y="1000" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-35" target="vW4bBwZLWko7UQOYLr3R-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-35" target="vW4bBwZLWko7UQOYLr3R-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-35" target="vW4bBwZLWko7UQOYLr3R-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Physical Access Controls" tooltip="This shows the progression from a minor occurrence to a major breach" id="vW4bBwZLWko7UQOYLr3R-35">
+          <mxCell style="whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+            <mxGeometry x="500" y="2670" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Privileged Account" tooltip="An account with elevated permissions (e.g., administrator). These are high-value targets.&#xa;" id="vW4bBwZLWko7UQOYLr3R-36">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="540" y="3685" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Principle of Least Privilege" tooltip="Give subjects only the bare minimum permissions they need to perform their job functions, and no more.&#xa;" id="vW4bBwZLWko7UQOYLr3R-37">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="500" y="1350" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ransomware" tooltip="A type of malware that denies access to objects (by encrypting them) until a ransom is paid." id="vW4bBwZLWko7UQOYLr3R-38">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="540" y="3810" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-39" target="AaK_XwqDNb4l9D0jVHPB-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Role-based access control (RBAC)" tooltip="This shows the progression from a minor occurrence to a major breach" id="vW4bBwZLWko7UQOYLr3R-39">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="569" y="2000" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Segregation of Duties" tooltip=" Prevents a single person from having end-to-end control of a critical process, reducing the risk of fraud and error." id="vW4bBwZLWko7UQOYLr3R-40">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="500" y="1440" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;startFill=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-41" target="AaK_XwqDNb4l9D0jVHPB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Rule" tooltip="The specific condition that defines what a subject can do to an object.&#xa;" id="vW4bBwZLWko7UQOYLr3R-41">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="500" y="1130" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;startFill=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-42" target="AaK_XwqDNb4l9D0jVHPB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Subject" tooltip="The active entity that requests access (e.g., a user, a program).&#xa;" id="vW4bBwZLWko7UQOYLr3R-42">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="500" y="870" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-43" target="vW4bBwZLWko7UQOYLr3R-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-43" target="vW4bBwZLWko7UQOYLr3R-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW4bBwZLWko7UQOYLr3R-43" target="AaK_XwqDNb4l9D0jVHPB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Technical Controls" tooltip="Controls implemented in hardware or software." id="vW4bBwZLWko7UQOYLr3R-43">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="500" y="2260" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Unix" tooltip="This shows the progression from a minor occurrence to a major breach" id="vW4bBwZLWko7UQOYLr3R-44">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="869" y="2490" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Turnstile" tooltip="A mechanical gate to allow only one person through at a time." id="vW4bBwZLWko7UQOYLr3R-45">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="669" y="2670" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="User Provisioning" tooltip="This shows the progression from a minor occurrence to a major breach" id="vW4bBwZLWko7UQOYLr3R-46">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="1540" y="2960" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-1" target="vW4bBwZLWko7UQOYLr3R-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-1" target="vW4bBwZLWko7UQOYLr3R-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-1" target="vW4bBwZLWko7UQOYLr3R-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-1" value="THE FUNDAMENTAL COMPONENTS&lt;div&gt;(VOCABULARY)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="875" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-2" target="vW4bBwZLWko7UQOYLr3R-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-2" target="vW4bBwZLWko7UQOYLr3R-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-2" value="THE GUIDING PRINCIPLES &amp;amp; STRATEGIES&lt;div&gt;(WHY)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1350" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-3" target="vW4bBwZLWko7UQOYLr3R-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-3" value="THE MAIN MODELS OF LOGICAL ACCESS CONTROL&lt;div&gt;(HOW)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1750" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-4" target="AaK_XwqDNb4l9D0jVHPB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-4" target="vW4bBwZLWko7UQOYLr3R-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-4" target="vW4bBwZLWko7UQOYLr3R-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-4" value="TYPES &amp;amp; IMPLEMENTATIONS OF CONTROLS&lt;div&gt;(WHAT)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2170" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-5" target="vW4bBwZLWko7UQOYLr3R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-5" target="vW4bBwZLWko7UQOYLr3R-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-5" target="vW4bBwZLWko7UQOYLr3R-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-5" value="VERIFICATIONS &amp;amp; MONITORING&lt;div&gt;(PROOF)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="3170" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-6" target="vW4bBwZLWko7UQOYLr3R-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-6" target="vW4bBwZLWko7UQOYLr3R-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-6" target="vW4bBwZLWko7UQOYLr3R-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-6" value="RELATED CONCEPTS &amp;amp; THREATS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="3560" width="160" height="310" as="geometry" />
+        </mxCell>
+        <UserObject label="Administrative Controls" tooltip="The policies, procedures, and standards created by management to direct security. (e.g., a &quot;Password Policy&quot; document).&#xa;" id="AaK_XwqDNb4l9D0jVHPB-8">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="500" y="2170" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-9" target="vW4bBwZLWko7UQOYLr3R-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-9" target="vW4bBwZLWko7UQOYLr3R-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-9" target="vW4bBwZLWko7UQOYLr3R-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Operating systems" tooltip="The software where logical access control models (DAC, MAC, RBAC) are actually enforced.&#xa;" id="AaK_XwqDNb4l9D0jVHPB-9">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="679" y="2410" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-12" target="AaK_XwqDNb4l9D0jVHPB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-12" value="User" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="850" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-14" target="AaK_XwqDNb4l9D0jVHPB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-14" value="Printer" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="980" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-19" value="can be used to print, scan...." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="1130" width="270" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="" tooltip=" Don&#39;t rely on a single security control. Use multiple, overlapping layers of defense." id="AaK_XwqDNb4l9D0jVHPB-30">
+          <mxCell style="group" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="500" y="1530" width="120" height="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Defense in Depth" tooltip="This shows the progression from a minor occurrence to a major breach" id="vW4bBwZLWko7UQOYLr3R-3">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="AaK_XwqDNb4l9D0jVHPB-30">
+            <mxGeometry y="60" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Layered Defense" tooltip="This shows the progression from a minor occurrence to a major breach" id="vW4bBwZLWko7UQOYLr3R-14">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="AaK_XwqDNb4l9D0jVHPB-30">
+            <mxGeometry width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-31" value="Administrator decides" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="789" y="1990" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-33" value="Owner decides" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="789" y="1823" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-35" value="System&lt;div&gt;decides&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="789" y="1907" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AaK_XwqDNb4l9D0jVHPB-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.152;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AaK_XwqDNb4l9D0jVHPB-2" target="vW4bBwZLWko7UQOYLr3R-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
